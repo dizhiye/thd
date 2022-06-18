@@ -50,10 +50,10 @@
 var hostjjj='55thd.xyz';
 var iswww=hostjjj.indexOf('www.')>-1?'':'www.';
 var ishttps = 'https:' == document.location.protocol ? 'https://': 'http://';
-var url=hostjjj;
+var url=ishttps+hostjjj;
 document.getElementsByClassName('header_title').item(0).innerHTML=hostjjj;
 
-var txt="今日最新域名\r\n"+ishttps+hostjjj+"\r\n"+
+var txt="今日最新域名\r\n"+hostjjj+"\r\n"+
 "今日备用域名\r\n"+url+"\r\n"+
 "提示：请复制域名去电脑或手机浏览器中打开，请勿在微信和QQ中打开，因为包含成人内容。尽量使用谷歌浏览器，火狐浏览器，或者苹果安卓系统自带浏览器访问～\r\n"+
 "本站由于经常被屏蔽域名，请务必多保存地址，以防丢失本站。\r\n如果您觉得本站还不错，可以粘贴本站链接发送给好友，感谢～";
