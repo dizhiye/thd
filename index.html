@@ -49,8 +49,8 @@
 <script>
 var hostjjj='55thd.xyz';
 var iswww=hostjjj.indexOf('www.')>-1?'':'www.';
-var ishttps = '' == document.location.protocol ? 'https://': 'http://';
-var url=ishttps+hostjjj;
+var ishttps = 'https:' == document.location.protocol ? 'https://': 'http://';
+var url=hostjjj;
 document.getElementsByClassName('header_title').item(0).innerHTML=hostjjj;
 
 var txt="今日最新域名\r\n"+ishttps+hostjjj+"\r\n"+
